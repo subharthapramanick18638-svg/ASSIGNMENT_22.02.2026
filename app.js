@@ -11,6 +11,8 @@ dbConnection()
 app.set('view engine','ejs')
 app.set('views','views')
 app.use(express.static('public'))
+app.use(express.json())
+
 
 
 
@@ -20,7 +22,8 @@ const HomeRoute=require('./app/router/HomeRoute')
 app.use(HomeRoute)
 
 
-
+const RegisterRoute=require('./app/router/RegisterRoute')
+app.use('/api',RegisterRoute)
 
 
 
