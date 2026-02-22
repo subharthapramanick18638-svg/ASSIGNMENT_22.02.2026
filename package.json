@@ -1,0 +1,20 @@
+{
+  "name": "assignment_22.02.2026",
+  "version": "1.0.0",
+  "description": "learn node js basic",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "subhartha pramanick",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "ejs": "^4.0.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.1",
+    "nodemon": "^3.1.14"
+  }
+}
